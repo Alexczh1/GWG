@@ -1,0 +1,16 @@
+training:
+  batch_size: 100
+  data_batch_size: 100
+  checkpoint_frq: 10
+  
+data:
+  dataset: 'boston'
+
+model:
+  bnn_latent_dim: 50
+  func: 'norm'
+
+optim:
+  weight_decay: 0.000
+  p_norm_optimizer: "SGD"
+  beta: 0.9
